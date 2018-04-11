@@ -9,7 +9,7 @@ public class Fibonacci {
 		if (value == 1) {
 			return value;
 		}
-		int fib = 0;
+		int fib = 1;
 		int prevFib = 1;
 
 		for (int i = 2; i < value; i++) {
